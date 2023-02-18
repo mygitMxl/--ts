@@ -1,0 +1,10 @@
+$color:#eee;
+body{
+    background-color: $color;
+    //禁用文字选中状态
+    user-select: none;
+}
+img{
+    //禁止拖动
+    --webkit-user-drag:none
+}
